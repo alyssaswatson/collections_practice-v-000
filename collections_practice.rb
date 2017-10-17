@@ -17,7 +17,7 @@ def sort_array_char_count(strings)
 end
 
 def swap_elements(elements)
-  elements.sort do
+  elements.sort do |elements|
     elements(1) > elements(2)
   end
 end
