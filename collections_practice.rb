@@ -42,3 +42,8 @@ def sum_array(integers)
     sum + x
   end
 end
+
+def add_s(words)
+  words.each_with_index do |word|
+    "#{word}" + "s"
+end
