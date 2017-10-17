@@ -24,3 +24,12 @@ end
 def reverse_array(array)
   array.reverse
 end
+
+def kesha_maker(kesha)
+  kesha.each do |
+end
+
+
+
+
+  
