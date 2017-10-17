@@ -46,4 +46,5 @@ end
 def add_s(words)
   words.each_with_index do |word|
     "#{word}" + "s"
+  end
 end
