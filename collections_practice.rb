@@ -32,9 +32,7 @@ def kesha_maker(kesha)
 end
 
 def find_a(strings)
-  a_strings = []
   strings.select do |i|
-    a_strings << i.start_with? "a"
+    i.start_with? "a"
   end
-  a_strings
 end
