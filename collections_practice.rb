@@ -36,3 +36,9 @@ def find_a(strings)
     i.start_with? "a"
   end
 end
+
+def sum_array(integers)
+  integers.inject do |sum, x|
+    sum + x
+  end
+end
