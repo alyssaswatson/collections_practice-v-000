@@ -20,4 +20,4 @@ def swap_elements(elements)
   elements.sort do
     elements(1) > elements(2)
   end
-end  
+end
