@@ -19,6 +19,7 @@ end
 def swap_elements(names)
   names.sort do |index|
     if names.index == 1
+      1
     end
   end
 end
