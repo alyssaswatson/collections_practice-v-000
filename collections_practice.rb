@@ -18,6 +18,6 @@ end
 
 def swap_elements(elements)
   elements.sort do |a, b|
-        
+    a(1) > b(2)    
   end
 end
