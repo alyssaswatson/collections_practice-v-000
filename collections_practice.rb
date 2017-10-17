@@ -44,7 +44,8 @@ def sum_array(integers)
 end
 
 def add_s(words)
-  words.each do |word|
-    word << "s"
-  end
+  if !words[2]
+    words.each do |word|
+      word << "s"
+    end
 end
