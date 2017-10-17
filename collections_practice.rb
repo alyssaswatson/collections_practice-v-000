@@ -30,3 +30,7 @@ def kesha_maker(kesha)
     x.sub(x[2], "$")
   end
 end
+
+def find_a 
+
+end
