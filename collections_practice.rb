@@ -17,7 +17,9 @@ def sort_array_char_count(strings)
 end
 
 def swap_elements(elements)
-  elements.sort do |a, b|
-    a(1) > b(2)    
+  elements.sort do |index|
+    if elements(index) == 1
+      1
+    end
   end
 end
