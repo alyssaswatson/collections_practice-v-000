@@ -26,7 +26,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(kesha)
-  kesha.each do |
+  kesha.map{|x| x.sub(x[2], "$")}
 end
 
 
