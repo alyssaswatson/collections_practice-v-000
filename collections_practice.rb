@@ -33,6 +33,6 @@ end
 
 def find_a(strings)
   strings.select do |i|
-    a_strings << i.starts_with? "a"
+    i.starts_with? "a"
   end
 end
